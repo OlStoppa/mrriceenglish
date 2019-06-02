@@ -793,6 +793,10 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  @media (max-width: $breakpoint) {
+    height: auto;
+  }
 }
 
 .headshot-container {
@@ -928,6 +932,10 @@ main {
 .footer-main {
   display: flex;
   padding: 20px;
+
+  @media (max-width: $breakpoint) {
+    flex-direction: column;
+  }
 }
 
 .footer-main__box {
