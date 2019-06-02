@@ -7,22 +7,9 @@ const Navbar = () => (
       <li>
         <div className="icon-box">
           <span>Home</span>
-          <span className="material-icons">arrow_drop_down</span>
+          
         </div>
-        <ul>
-          <Link>
-            <li>Writing Correction</li>
-          </Link>
-          <Link>
-            <li>Task 1</li>
-          </Link>
-          <Link>
-            <li>Task 2</li>
-          </Link>
-          <Link>
-            <li>Happy Days</li>
-          </Link>
-        </ul>
+        
       </li>
       <li>
         <div className="icon-box">
@@ -30,56 +17,29 @@ const Navbar = () => (
         </div>
         <ul>
         <Link>
+            <li>1 to 1 Lessons</li>
+          </Link>
+          <Link>
             <li>Writing Correction</li>
           </Link>
           <Link>
-            <li>Task 1</li>
+            <li>Proofreading</li>
           </Link>
-          <Link>
-            <li>Task 2</li>
-          </Link>
-          <Link>
-            <li>Happy Days</li>
-          </Link>
+          
         </ul>
       </li>
       <li>
         <div className="icon-box">
-          Contact<span className="material-icons">arrow_drop_down</span>
+          Contact
         </div>
-        <ul>
-        <Link>
-            <li>Writing Correction</li>
-          </Link>
-          <Link>
-            <li>Task 1</li>
-          </Link>
-          <Link>
-            <li>Task 2</li>
-          </Link>
-          <Link>
-            <li>Happy Days</li>
-          </Link>
-        </ul>
+        
+        
       </li>
       <li>
         <div className="icon-box">
-          Testimonials<span className="material-icons">arrow_drop_down</span>
+          Testimonials
         </div>
-        <ul>
-        <Link>
-            <li>Writing Correction</li>
-          </Link>
-          <Link>
-            <li>Task 1</li>
-          </Link>
-          <Link>
-            <li>Task 2</li>
-          </Link>
-          <Link>
-            <li>Happy Days</li>
-          </Link>
-        </ul>
+        
       </li>
     </ul>
   </div>
