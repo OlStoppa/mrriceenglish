@@ -33,18 +33,18 @@ const Drawer = props => {
             index={0}
           >
             <ul>
-              <Link to="/">
+              <Link >
                 <li>Lessons</li>
               </Link>
-              <Link to="/">
+              <Link >
                 <li>Writing Correction</li>
               </Link>
               
             </ul>
           </CollapseNav>
-          <Link to="/"><li>Testimonials</li></Link>
+          <Link ><li>Testimonials</li></Link>
           
-          <Link to="/contact"><li>Contact Me</li></Link>
+          <Link ><li>Contact Me</li></Link>
         </ul>
       </div>
     </div>
