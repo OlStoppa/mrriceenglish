@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/mrriceenglish",
   siteMetadata: {
     title: `Jon's Site`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `A site for jon`,
     author: `@gatsbyjs`,
   },
   plugins: [
